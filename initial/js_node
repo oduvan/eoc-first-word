@@ -1,0 +1,21 @@
+
+export function firstWord(a) {
+
+    // your code here
+    return undefined;
+}
+
+import * as assert from 'assert';
+console.log('Example:');
+console.log(firstWord('Hello world'));
+
+// These "asserts" are used for self-checking
+assert.equal(firstWord('Hello world'), 'Hello');
+assert.equal(firstWord(' a word '), 'a');
+assert.equal(firstWord("don't touch it"), "don't");
+assert.equal(firstWord('greetings, friends'), 'greetings');
+assert.equal(firstWord('... and so on ...'), 'and');
+assert.equal(firstWord('hi'), 'hi');
+
+console.log("Coding complete? Click 'Check' to earn cool rewards!");
+    

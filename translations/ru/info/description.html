@@ -1,0 +1,56 @@
+<!-- Describe task in general -->
+
+<p>
+    Дана строка и нужно найти ее первое слово.
+</p>
+
+<p>
+    При решении задачи обратите внимание на следующие моменты:
+</p>
+<ul>
+    <li>В строке могут встречатся точки и запятые</li>
+    <li>Строка может начинаться с буквы или, к примеру, с пробела или точки</li>
+    <li>В слове может быть апостроф и он является частью слова</li>
+    <li>Весь текст может быть представлен только одним словом и все</li>
+</ul>
+
+
+<!-- Explain input and output values -->
+<p>
+    <strong>Входные параметры: </strong> Строка.
+</p>
+
+<p>
+    <strong>Выходные параметры: </strong> Строка. 
+</p>
+
+
+<!-- Put some usage examples -->
+<div class="for_info_only">
+    <p>
+        <strong>Пример:</strong>
+    </p>
+
+{% if interpreter.slug == "js-node" %}
+<pre class="brush: javascript">firstWord("Hello world") == "Hello"
+firstWord("greetings, friends") == "greetings"
+</pre>
+{% else %}
+<pre class="brush: python">first_word("Hello world") == "Hello"
+first_word("greetings, friends") == "greetings"
+</pre>
+{% endif %}
+</div>
+<!-- Here you can explain how it can be used in development and what is usage of this. -->
+<!-- The section is optional -->
+<p class="for_info_only">
+    <strong>How it is used: </strong>
+    <i>first word is a command in command line</i>
+</p>
+
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<p>
+    <strong>Precondition:</strong>
+    <i>text can contain a-z A-Z , . ' </i>
+</p>
